@@ -221,29 +221,17 @@ function create_config( )
     "all",
     "leave_ban"
     },
-    sudo_users = {110626080,103649648,0,tonumber(our_id)},--Sudo users
+    sudo_users = {,(78260209)},--Sudo users
     disabled_channels = {},
     realm = {data = 'data/moderation.json'},--Realms Id
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v1
 An advance Administration bot based on yagop/telegram-bot 
 
-https://github.com/SEEDTEAM/TeleSeed
+https://github.com/SEEDTEAM/Teleseed
 
 Admins
-@iwals [Founder]
-@imandaneshi [Developer]
-@Rondoozle [Developer]
-@seyedan25 [Manager]
-
-Special thanks to
-awkward_potato
-Siyanew
-topkecleon
-Vamptacus
-
-Our channels
-@teleseedch [English]
+سید نگاییدم
 ]],
     help_text = [[
 Commands list :
@@ -278,13 +266,13 @@ Group description
 !setphoto
 Set and locks group photo
 
-!setname [name]
+!8[name]
 Set group name
 
 !rules
 Group rules
 
-!id
+!ایدی
 return group id or user id
 
 !help
@@ -304,13 +292,13 @@ Set <text> as about
 !settings
 Returns group settings
 
-!newlink
+!لینک جدید
 create/revoke your group link
 
-!link
+!لینک گروه
 returns group link
 
-!owner
+!مدیر اصلی
 returns group owner id
 
 !setowner [id]
